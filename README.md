@@ -15,7 +15,9 @@ Vision Language Models operate through a sophisticated process that combines sev
 
 Image Encoder: The first step involves encoding the input image into a latent space representation. This is typically done using advanced image encoding models such as CLIP (Contrastive Language-Image Pre-training), SigLIP (Signal-based Language-Image Pre-training), PaLI (Pathways Language and Image model), or DINO (Self-Distillation with No Labels). These encoders transform the raw pixel data into a compact, high-dimensional vector that captures the image's salient features.
 Latent Space Projection: The latent space representation from the image encoder needs to be aligned with the text embedding space. This is achieved through a projection layer, which is essentially an Artificial Neural Network (ANN). This projector maps the image embeddings to a space that is compatible with text embeddings.
+
 Text Embedding Merger: Once the image embeddings are projected into the appropriate space, they are merged with the text embeddings. This process allows the model to create a unified representation that combines both visual and textual information.
+
 Language Model: The merged embeddings are then processed by a language model, which can generate text based on the combined visual and textual input.
 
 This architecture allows VLMs to perform tasks such as image captioning, visual question answering, and even generating text that is contextually relevant to both images and text prompts.
