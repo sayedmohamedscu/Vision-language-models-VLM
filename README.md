@@ -2,7 +2,7 @@
 vision language models  finetuning notebooks &amp; use cases
 Vision Language Models (VLMs) are a cutting-edge type of artificial intelligence that combines computer vision and natural language processing. These models can understand and generate text based on visual inputs, bridging the gap between visual and textual information.
 
-![PaliGemma](assets/pali.png)
+![PaliGemma](assets/pali1.png)
 
 ## Key Features
 
