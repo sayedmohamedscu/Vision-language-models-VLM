@@ -4,6 +4,14 @@ Vision Language Models (VLMs) are a cutting-edge type of artificial intelligence
 
 ![PaliGemma](assets/pali1.png)
 
+
+| Model | Notebook Link |
+|-------|---------------|
+| PaLIGemma | [pali_gemma_OCR_Meter.ipynb](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/pali_gemma_OCR_Meter.ipynb) |
+| Florence-2 | [Fine_tune_Florence_2_metere_values.ipynb](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/Fine_tune_Florence_2_metere_values.ipynb) |
+
+
+
 ## Key Features
 
 1. Image Understanding: VLMs can analyze and interpret complex visual scenes.
@@ -21,6 +29,9 @@ Text Embedding Merger: Once the image embeddings are projected into the appropri
 Language Model: The merged embeddings are then processed by a language model, which can generate text based on the combined visual and textual input.
 
 This architecture allows VLMs to perform tasks such as image captioning, visual question answering, and even generating text that is contextually relevant to both images and text prompts.
+
+
+
 
 ## Applications
 
