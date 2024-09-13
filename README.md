@@ -48,3 +48,13 @@ In this image, a VLM could be trained to read the Meter values using henrik-dra/
 - Read and interpret the digital display
 
 
+## Example1 Florence2 Finetuning
+
+### Electronic Meter Reading (same dataset)
+
+
+
+
+![Electronic Meter](assets/Florence.png)
+
+Florence-2 could be used with multiple otrher applications like detection , segmnenation ,OCR , OCR with bbox and image captionating.
