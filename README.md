@@ -70,3 +70,10 @@ In this image, a VLM could be trained to read the Meter values using henrik-dra/
 ![Electronic Meter](assets/Florence.png)
 
 Florence-2 could be used with multiple otrher applications like detection , segmnenation ,OCR , OCR with bbox and image captionating.
+
+Here are the Florence-2 tasks 
+
+![Electronic Meter](assets/flo-tasks.png)
+![Electronic Meter](assets/flo1.png)
+
+
