@@ -1,5 +1,7 @@
 # Finetune Vision-language-models-VLM
 
+## [Medium](https://medium.com/@elsayed_mohamed) 
+
 vision language models  finetuning notebooks &amp; use cases
 Vision Language Models (VLMs) are a cutting-edge type of artificial intelligence that combines computer vision and natural language processing. These models can understand and generate text based on visual inputs, bridging the gap between visual and textual information.
 
