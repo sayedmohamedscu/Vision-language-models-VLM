@@ -1,5 +1,8 @@
-# Finetune Vision-language-models-VLM
+# Fine-Tuning Vision-Language Models 🚀
 
+This repository contains notebooks and use cases for fine-tuning state-of-the-art Vision-Language Models (VLMs) on custom datasets. All examples are designed to run on free Google Colab notebooks.
+
+-----
 ## [Medium](https://medium.com/@elsayed_mohamed) 
 
 vision language models  finetuning notebooks &amp; use cases
@@ -12,6 +15,7 @@ Vision Language Models (VLMs) are a cutting-edge type of artificial intelligence
 |-------|---------------|
 | PaLIGemma | [pali_gemma_OCR_Meter.ipynb](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/pali_gemma_OCR_Meter.ipynb) |
 | Florence-2 | [Fine_tune_Florence_2_metere_values.ipynb](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/Fine_tune_Florence_2_metere_values.ipynb) |
+|MedGemma4b-it|[Florence-2 Fine-Tuning Notebook](https://www.google.com/search?q=https://github.com/kingabzpro/vision_language_models_finetuning/blob/main/Florence-2-Fine-tuning.ipynb)|
 
 
 
@@ -79,3 +83,48 @@ Here are the Florence-2 tasks
 ![Electronic Meter](assets/flo1.png)
 
 
+
+
+
+
+-----
+
+
+
+### MedGemma 4B: Fine-Tuning for Medical Vision 🩺
+
+This project walks you through fine-tuning **MedGemma 4B**, Google's powerful multimodal model optimized for medical applications. MedGemma combines a **SigLIP** vision encoder with the **Gemma 3** architecture, making it highly effective at understanding complex medical images like chest x-rays.
+
+In this guide, we use **QLoRA** to efficiently fine-tune the model on a custom medical dataset. This technique makes it possible to train a 4-billion-parameter model even on a free Colab notebook.
+
+  * **Model**: `google/medgemma-4b-it`
+  * **Technique**: QLoRA (4-bit Quantization + LoRA)
+  * **Use Case**: Medical Visual Question Answering (VQA)
+
+➡️ **Check out the full guide in the [MedGemma Fine-Tuning Notebook]([https://www.google.com/search?q=https://github.com/kingabzpro/vision_language_models_finetuning/blob/main/medgemma-qlora-finetune.ipynb](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/medgemma_4b_it.ipynb)).**
+
+-----
+
+### Florence-2: Fine-Tuning for Document OCR
+
+This project demonstrates how to fine-tune **Florence-2**, Microsoft's powerful vision model, which is excellent for a wide variety of vision tasks, especially those involving text on documents. Since the fine-tuning logic for this model is not yet integrated into the `transformers` Trainer, this notebook uses a custom PyTorch training loop.
+
+Here, we fine-tune the small 232M parameter version to read values from energy meters.
+
+  * **Model**: `microsoft/Florence-2-base-ft`
+  * **Technique**: Standard fine-tuning with a custom PyTorch loop
+  * **Use Case**: Document Visual Question Answering (DocVQA) / OCR
+
+➡️ **Explore the code in the [Florence-2 Fine-Tuning Notebook](https://www.google.com/search?q=https://github.com/kingabzpro/vision_language_models_finetuning/blob/main/Florence-2-Fine-tuning.ipynb).**
+
+-----
+
+### PaliGemma: Meter Reading
+
+This project covers fine-tuning **PaliGemma**, Google's lightweight and versatile VLM, for a custom task of reading energy meter values from images. It's a great example of applying a VLM to a specific OCR-style problem.
+
+  * **Model**: `google/paligemma-3b-pt-224`
+  * **Technique**: LoRA
+  * **Use Case**: Optical Character Recognition (OCR) / Value Extraction
+
+➡️ **Find the code in the [PaliGemma Meter Reading Notebook](https://www.google.com/search?q=https://github.com/kingabzpro/vision_language_models_finetuning/blob/main/paligemma_meter_reading.ipynb).**
