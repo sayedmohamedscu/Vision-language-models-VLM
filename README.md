@@ -15,7 +15,7 @@ Vision Language Models (VLMs) are a cutting-edge type of artificial intelligence
 |-------|---------------|
 | PaLIGemma | [pali_gemma_OCR_Meter.ipynb](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/pali_gemma_OCR_Meter.ipynb) |
 | Florence-2 | [Fine_tune_Florence_2_metere_values.ipynb](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/Fine_tune_Florence_2_metere_values.ipynb) |
-|MedGemma4b-it|[Florence-2 Fine-Tuning Notebook](https://www.google.com/search?q=https://github.com/kingabzpro/vision_language_models_finetuning/blob/main/Florence-2-Fine-tuning.ipynb)|
+|MedGemma4b-it|[Florence-2 Fine-Tuning Notebook](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/medgemma_4b_it_prev.ipynb)|
 
 
 
