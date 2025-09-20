@@ -13,8 +13,8 @@ Vision Language Models (VLMs) are a cutting-edge type of artificial intelligence
 
 | Model | Notebook Link |
 |-------|---------------|
-| PaLIGemma | [Colab pali_gemma_OCR_Meter.ipynb]([https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/pali_gemma_OCR_Meter.ipynb](https://colab.research.google.com/github/sayedmohamedscu/Vision-language-models-VLM/blob/main/updated_pali_gemma_OCR_Meter.ipynb)) |
-| Florence-2 | [Fine_tune_Florence_2_metere_values.ipynb]([https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/Fine_tune_Florence_2_metere_values.ipynb](https://colab.research.google.com/github/sayedmohamedscu/Vision-language-models-VLM/blob/main/Fine_tune_Florence_2_metere_values_updated.ipynb)) |
+| PaLIGemma | [Colab pali_gemma_OCR_Meter.ipynb](https://colab.research.google.com/github/sayedmohamedscu/Vision-language-models-VLM/blob/main/updated_pali_gemma_OCR_Meter.ipynb) |
+| Florence-2 | [Fine_tune_Florence_2_metere_values.ipynb](https://colab.research.google.com/github/sayedmohamedscu/Vision-language-models-VLM/blob/main/Fine_tune_Florence_2_metere_values_updated.ipynb)|
 |MedGemma4b-it|[MedGemma4b Fine-Tuning Notebook](https://github.com/sayedmohamedscu/Vision-language-models-VLM/blob/main/medgemma_4b_it_prev.ipynb)|
 
 
